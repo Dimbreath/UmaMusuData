@@ -1,0 +1,12 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'race_course_set_status' ('course_set_status_id' INTEGER NOT NULL, 'target_status_1' INTEGER NOT NULL, 'target_status_2' INTEGER NOT NULL, PRIMARY KEY('course_set_status_id'));
+INSERT INTO "race_course_set_status" VALUES(1,1,0);
+INSERT INTO "race_course_set_status" VALUES(2,2,0);
+INSERT INTO "race_course_set_status" VALUES(3,3,0);
+INSERT INTO "race_course_set_status" VALUES(4,4,0);
+INSERT INTO "race_course_set_status" VALUES(5,5,0);
+INSERT INTO "race_course_set_status" VALUES(6,1,2);
+INSERT INTO "race_course_set_status" VALUES(7,2,3);
+INSERT INTO "race_course_set_status" VALUES(8,2,4);
+INSERT INTO "race_course_set_status" VALUES(9,3,5);
+COMMIT;

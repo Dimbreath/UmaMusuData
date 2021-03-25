@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'gacha_piece' ('id' INTEGER NOT NULL, 'rarity' INTEGER NOT NULL, 'piece_type' INTEGER NOT NULL, 'piece_num' INTEGER NOT NULL, 'item_category' INTEGER NOT NULL, 'item_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "gacha_piece" VALUES(1,1,2,1,97,115);
+INSERT INTO "gacha_piece" VALUES(2,2,2,3,97,115);
+INSERT INTO "gacha_piece" VALUES(3,3,2,20,97,115);
+COMMIT;

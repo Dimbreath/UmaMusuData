@@ -1,0 +1,12 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'price_change' ('id' INTEGER NOT NULL, 'group_id' INTEGER NOT NULL, 'min_num' INTEGER NOT NULL, 'max_num' INTEGER NOT NULL, 'pay_item_num' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "price_change" VALUES(1,10,1,25,1);
+INSERT INTO "price_change" VALUES(2,10,26,50,2);
+INSERT INTO "price_change" VALUES(3,10,51,75,3);
+INSERT INTO "price_change" VALUES(4,10,76,100,4);
+INSERT INTO "price_change" VALUES(5,10,101,650,5);
+INSERT INTO "price_change" VALUES(6,20,1,1,100);
+INSERT INTO "price_change" VALUES(7,20,2,2,900);
+INSERT INTO "price_change" VALUES(8,20,3,3,2000);
+INSERT INTO "price_change" VALUES(9,20,4,4,3000);
+COMMIT;

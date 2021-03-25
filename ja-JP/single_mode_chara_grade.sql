@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'single_mode_chara_grade' ('id' INTEGER NOT NULL, 'win_num' INTEGER NOT NULL, 'run_num' INTEGER NOT NULL, 'need_fan_count' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "single_mode_chara_grade" VALUES(1,0,0,0);
+INSERT INTO "single_mode_chara_grade" VALUES(2,0,1,0);
+INSERT INTO "single_mode_chara_grade" VALUES(3,1,1,0);
+INSERT INTO "single_mode_chara_grade" VALUES(4,1,1,5000);
+INSERT INTO "single_mode_chara_grade" VALUES(5,1,1,20000);
+INSERT INTO "single_mode_chara_grade" VALUES(6,1,1,50000);
+INSERT INTO "single_mode_chara_grade" VALUES(7,1,1,100000);
+INSERT INTO "single_mode_chara_grade" VALUES(8,1,1,160000);
+INSERT INTO "single_mode_chara_grade" VALUES(9,1,1,240000);
+INSERT INTO "single_mode_chara_grade" VALUES(10,1,1,320000);
+COMMIT;

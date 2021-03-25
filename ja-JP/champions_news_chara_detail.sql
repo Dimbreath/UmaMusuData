@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'champions_news_chara_detail' ('id' INTEGER NOT NULL, 'chara_text_group' INTEGER NOT NULL, 'text_number' INTEGER NOT NULL, 'resource_id' INTEGER NOT NULL, 'chara_id' INTEGER NOT NULL, 'single_win' INTEGER NOT NULL, 'nickname_id' INTEGER NOT NULL, 'parameter_type' INTEGER NOT NULL, 'parameter_min' INTEGER NOT NULL, 'running_style' INTEGER NOT NULL, 'proper_running_style_min' INTEGER NOT NULL, PRIMARY KEY('id'));
+COMMIT;

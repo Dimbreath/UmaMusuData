@@ -1,0 +1,16 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'single_mode_top_bg' ('id' INTEGER NOT NULL, 'month' INTEGER NOT NULL, 'bg_id' INTEGER NOT NULL, 'bg_sub_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "single_mode_top_bg" VALUES(1,1,5,4110);
+INSERT INTO "single_mode_top_bg" VALUES(2,2,5,4110);
+INSERT INTO "single_mode_top_bg" VALUES(3,3,5,5110);
+INSERT INTO "single_mode_top_bg" VALUES(4,4,5,5110);
+INSERT INTO "single_mode_top_bg" VALUES(5,5,5,110);
+INSERT INTO "single_mode_top_bg" VALUES(6,6,5,110);
+INSERT INTO "single_mode_top_bg" VALUES(7,7,5,110);
+INSERT INTO "single_mode_top_bg" VALUES(8,8,5,110);
+INSERT INTO "single_mode_top_bg" VALUES(9,9,5,110);
+INSERT INTO "single_mode_top_bg" VALUES(10,10,5,3110);
+INSERT INTO "single_mode_top_bg" VALUES(11,11,5,3110);
+INSERT INTO "single_mode_top_bg" VALUES(12,12,5,4110);
+INSERT INTO "single_mode_top_bg" VALUES(13,0,42,2110);
+COMMIT;

@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'team_stadium_support_text' ('id' INTEGER NOT NULL, 'type' INTEGER NOT NULL, 'min_bonus' INTEGER NOT NULL, 'max_bonus' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "team_stadium_support_text" VALUES(1,1,0,10000);
+INSERT INTO "team_stadium_support_text" VALUES(2,1,0,10000);
+INSERT INTO "team_stadium_support_text" VALUES(3,1,0,99);
+INSERT INTO "team_stadium_support_text" VALUES(4,1,100,499);
+INSERT INTO "team_stadium_support_text" VALUES(5,1,500,999);
+INSERT INTO "team_stadium_support_text" VALUES(6,1,1000,1999);
+INSERT INTO "team_stadium_support_text" VALUES(7,1,2000,4999);
+INSERT INTO "team_stadium_support_text" VALUES(8,1,5000,10000);
+INSERT INTO "team_stadium_support_text" VALUES(9,2,0,10000);
+INSERT INTO "team_stadium_support_text" VALUES(10,2,0,10000);
+COMMIT;

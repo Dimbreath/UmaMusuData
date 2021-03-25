@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'champions_schedule' ('id' INTEGER NOT NULL, 'resource_id' INTEGER NOT NULL, 'info_detail' INTEGER NOT NULL, 'champions_bg_id' INTEGER NOT NULL, 'champions_bg_sub_id' INTEGER NOT NULL, 'champions_bg_position_x' INTEGER NOT NULL, 'champions_finish_bg_id' INTEGER NOT NULL, 'champions_finish_bg_sub_id' INTEGER NOT NULL, 'champions_finish_bg_position_x' INTEGER NOT NULL, 'notice_date' INTEGER NOT NULL, 'start_date' INTEGER NOT NULL, 'end_date' INTEGER NOT NULL, PRIMARY KEY('id'));
+COMMIT;

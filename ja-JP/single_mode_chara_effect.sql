@@ -1,0 +1,16 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'single_mode_chara_effect' ('id' INTEGER NOT NULL, 'effect_type' INTEGER NOT NULL, 'effect_category' INTEGER NOT NULL, 'effect_group_id' INTEGER NOT NULL, 'priority' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "single_mode_chara_effect" VALUES(1,2,1,1,100);
+INSERT INTO "single_mode_chara_effect" VALUES(2,2,1,2,100);
+INSERT INTO "single_mode_chara_effect" VALUES(3,2,1,3,100);
+INSERT INTO "single_mode_chara_effect" VALUES(4,2,1,4,100);
+INSERT INTO "single_mode_chara_effect" VALUES(5,2,1,5,100);
+INSERT INTO "single_mode_chara_effect" VALUES(6,2,1,6,90);
+INSERT INTO "single_mode_chara_effect" VALUES(7,1,1,7,100);
+INSERT INTO "single_mode_chara_effect" VALUES(8,1,1,8,100);
+INSERT INTO "single_mode_chara_effect" VALUES(9,1,1,9,100);
+INSERT INTO "single_mode_chara_effect" VALUES(10,1,1,6,90);
+INSERT INTO "single_mode_chara_effect" VALUES(11,1,1,6,100);
+INSERT INTO "single_mode_chara_effect" VALUES(12,2,2,10,100);
+INSERT INTO "single_mode_chara_effect" VALUES(13,1,2,10,100);
+COMMIT;

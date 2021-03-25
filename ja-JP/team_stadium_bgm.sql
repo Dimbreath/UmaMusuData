@@ -1,0 +1,14 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'team_stadium_bgm' ('id' INTEGER NOT NULL, 'scene_type' INTEGER NOT NULL, 'priority' INTEGER NOT NULL, 'cue_name' TEXT NOT NULL, 'cuesheet_name' TEXT NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "team_stadium_bgm" VALUES(1,1,100,'snd_bgm_CS007_team','snd_bgm_CS007');
+INSERT INTO "team_stadium_bgm" VALUES(2,1,100,'snd_bgm_CS008_team','snd_bgm_CS008');
+INSERT INTO "team_stadium_bgm" VALUES(3,1,100,'snd_bgm_CS009_team','snd_bgm_CS009');
+INSERT INTO "team_stadium_bgm" VALUES(4,1,100,'snd_bgm_CS010_team','snd_bgm_CS010');
+INSERT INTO "team_stadium_bgm" VALUES(5,1,100,'snd_bgm_CS011_team','snd_bgm_CS011');
+INSERT INTO "team_stadium_bgm" VALUES(6,2,100,'snd_bgm_GM037_result','snd_bgm_GM037');
+INSERT INTO "team_stadium_bgm" VALUES(7,3,100,'snd_bgm_GM061_result','snd_bgm_GM061');
+INSERT INTO "team_stadium_bgm" VALUES(8,4,100,'snd_bgm_GM036_result','snd_bgm_GM036');
+INSERT INTO "team_stadium_bgm" VALUES(9,5,100,'snd_bgm_GM037_loop','snd_bgm_GM037');
+INSERT INTO "team_stadium_bgm" VALUES(10,6,100,'snd_bgm_GM061_loop','snd_bgm_GM061');
+INSERT INTO "team_stadium_bgm" VALUES(11,7,100,'snd_bgm_GM036_loop','snd_bgm_GM036');
+COMMIT;

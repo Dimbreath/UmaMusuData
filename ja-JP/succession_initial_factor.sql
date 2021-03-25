@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'succession_initial_factor' ('id' INTEGER NOT NULL, 'factor_type' INTEGER NOT NULL, 'value_1' INTEGER NOT NULL, 'value_2' INTEGER NOT NULL, 'add_point' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "succession_initial_factor" VALUES(1,1,1,0,5);
+INSERT INTO "succession_initial_factor" VALUES(2,1,2,0,12);
+INSERT INTO "succession_initial_factor" VALUES(3,1,3,0,21);
+INSERT INTO "succession_initial_factor" VALUES(4,2,1,3,1);
+INSERT INTO "succession_initial_factor" VALUES(5,2,4,6,2);
+INSERT INTO "succession_initial_factor" VALUES(6,2,7,9,3);
+INSERT INTO "succession_initial_factor" VALUES(7,2,10,999,4);
+COMMIT;

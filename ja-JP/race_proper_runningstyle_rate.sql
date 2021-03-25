@@ -1,0 +1,12 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'race_proper_runningstyle_rate' ('id' INTEGER NOT NULL, 'proper_rate' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "race_proper_runningstyle_rate" VALUES(0,0);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(1,1000);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(2,2000);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(3,4000);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(4,6000);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(5,7500);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(6,8500);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(7,10000);
+INSERT INTO "race_proper_runningstyle_rate" VALUES(8,11000);
+COMMIT;

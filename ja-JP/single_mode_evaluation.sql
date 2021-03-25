@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'single_mode_evaluation' ('id' INTEGER NOT NULL, 'evaluation' INTEGER NOT NULL, 'chara_id' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "single_mode_evaluation" VALUES(1,90,9002);
+INSERT INTO "single_mode_evaluation" VALUES(2,70,9002);
+INSERT INTO "single_mode_evaluation" VALUES(3,40,9002);
+INSERT INTO "single_mode_evaluation" VALUES(4,0,9002);
+INSERT INTO "single_mode_evaluation" VALUES(5,90,9003);
+INSERT INTO "single_mode_evaluation" VALUES(6,70,9003);
+INSERT INTO "single_mode_evaluation" VALUES(7,40,9003);
+INSERT INTO "single_mode_evaluation" VALUES(8,0,9003);
+COMMIT;

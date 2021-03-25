@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'champions_round_detail' ('champions_id' INTEGER NOT NULL, 'round_id' INTEGER NOT NULL, 'round' INTEGER NOT NULL, 'tier' INTEGER NOT NULL, 'round_number' INTEGER NOT NULL, 'breakthrough_number_1' INTEGER NOT NULL, 'breakthrough_number_2' INTEGER NOT NULL, 'entry_number' INTEGER NOT NULL, 'free_entry_number' INTEGER NOT NULL, PRIMARY KEY('champions_id','round_id'));
+COMMIT;

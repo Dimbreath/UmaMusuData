@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'note_profile' ('id' INTEGER NOT NULL, 'chara_id' INTEGER NOT NULL, 'text_type' INTEGER NOT NULL, 'lock_type' INTEGER NOT NULL, 'lock_value' INTEGER NOT NULL, 'sort' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "note_profile" VALUES(1,0,1,0,0,1);
+INSERT INTO "note_profile" VALUES(2,0,2,1,1,2);
+INSERT INTO "note_profile" VALUES(3,0,3,1,2,3);
+INSERT INTO "note_profile" VALUES(4,0,4,1,3,4);
+INSERT INTO "note_profile" VALUES(5,0,5,1,4,5);
+INSERT INTO "note_profile" VALUES(6,0,6,1,5,6);
+INSERT INTO "note_profile" VALUES(7,9001,7,0,0,1);
+INSERT INTO "note_profile" VALUES(8,9004,8,0,0,1);
+COMMIT;

@@ -1,0 +1,14 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'circle_rank_data' ('id' INTEGER NOT NULL, 'need_ranking_max' INTEGER NOT NULL, 'need_ranking_min' INTEGER NOT NULL, 'reward_item_category_1' INTEGER NOT NULL, 'reward_item_id_1' INTEGER NOT NULL, 'reward_num_1' INTEGER NOT NULL, 'reward_item_category_2' INTEGER NOT NULL, 'reward_item_id_2' INTEGER NOT NULL, 'reward_num_2' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "circle_rank_data" VALUES(1,0,0,0,0,0,0,0,0);
+INSERT INTO "circle_rank_data" VALUES(2,10001,0,90,43,150,161,134,150);
+INSERT INTO "circle_rank_data" VALUES(3,7001,10000,90,43,300,161,134,300);
+INSERT INTO "circle_rank_data" VALUES(4,5001,7000,90,43,600,161,134,600);
+INSERT INTO "circle_rank_data" VALUES(5,3001,5000,90,43,900,161,134,900);
+INSERT INTO "circle_rank_data" VALUES(6,1001,3000,90,43,1200,161,134,1200);
+INSERT INTO "circle_rank_data" VALUES(7,501,1000,90,43,1500,161,134,1500);
+INSERT INTO "circle_rank_data" VALUES(8,101,500,90,43,1800,161,134,1800);
+INSERT INTO "circle_rank_data" VALUES(9,31,100,90,43,2100,161,134,2100);
+INSERT INTO "circle_rank_data" VALUES(10,11,30,90,43,2400,161,134,2400);
+INSERT INTO "circle_rank_data" VALUES(11,1,10,90,43,3000,161,134,3000);
+COMMIT;

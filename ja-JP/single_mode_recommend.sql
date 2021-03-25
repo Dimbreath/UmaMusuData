@@ -1,0 +1,17 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'single_mode_recommend' ('id' INTEGER NOT NULL, 'grade_upper_limit' INTEGER NOT NULL, 'grade_lower_limit' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "single_mode_recommend" VALUES(1,4,2);
+INSERT INTO "single_mode_recommend" VALUES(2,4,3);
+INSERT INTO "single_mode_recommend" VALUES(3,6,4);
+INSERT INTO "single_mode_recommend" VALUES(4,10,5);
+INSERT INTO "single_mode_recommend" VALUES(5,10,6);
+INSERT INTO "single_mode_recommend" VALUES(6,10,7);
+INSERT INTO "single_mode_recommend" VALUES(7,11,7);
+INSERT INTO "single_mode_recommend" VALUES(8,14,7);
+INSERT INTO "single_mode_recommend" VALUES(9,11,7);
+INSERT INTO "single_mode_recommend" VALUES(10,12,7);
+INSERT INTO "single_mode_recommend" VALUES(11,13,7);
+INSERT INTO "single_mode_recommend" VALUES(12,14,7);
+INSERT INTO "single_mode_recommend" VALUES(13,14,7);
+INSERT INTO "single_mode_recommend" VALUES(14,14,7);
+COMMIT;

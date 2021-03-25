@@ -1,0 +1,4 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'team_stadium' ('id' INTEGER NOT NULL, 'race_start_date' INTEGER NOT NULL, 'race_start_time' TEXT NOT NULL, 'race_end_date' INTEGER NOT NULL, 'race_end_time' TEXT NOT NULL, 'interval_start_date' INTEGER NOT NULL, 'interval_start_time' TEXT NOT NULL, 'interval_end_date' INTEGER NOT NULL, 'interval_end_time' TEXT NOT NULL, 'calc_start_date' INTEGER NOT NULL, 'calc_start_time' TEXT NOT NULL, 'calc_end_date' INTEGER NOT NULL, 'calc_end_time' TEXT NOT NULL, 'start_date' TEXT NOT NULL, 'end_date' TEXT NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "team_stadium" VALUES(1,2,'05:00:00',1,'23:59:59',2,'00:00:00',2,'00:04:59',2,'00:05:00',2,'04:59:59','2017/1/1 0:00:00','2050/1/1 0:00:00');
+COMMIT;

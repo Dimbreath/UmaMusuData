@@ -1,0 +1,4 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'limited_exchange' ('id' INTEGER NOT NULL, 'item_exchange_top_id' INTEGER NOT NULL, 'open_value' INTEGER NOT NULL, 'item_lineup_value' INTEGER NOT NULL, 'odds_id' INTEGER NOT NULL, 'daily_race_odds' INTEGER NOT NULL, 'daily_race_ceiling' INTEGER NOT NULL, 'legend_race_odds' INTEGER NOT NULL, 'legend_race_ceiling' INTEGER NOT NULL, 'single_mode_odds' INTEGER NOT NULL, 'single_mode_ceiling' INTEGER NOT NULL, 'team_stadium_odds' INTEGER NOT NULL, 'team_stadium_ceiling' INTEGER NOT NULL, 'start_date' INTEGER NOT NULL, 'end_date' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "limited_exchange" VALUES(1,9000,3,6,1000,350000,3,400000,2,0,0,300000,4,1496242800,2556111599);
+COMMIT;

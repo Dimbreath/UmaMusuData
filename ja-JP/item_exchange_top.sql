@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'item_exchange_top' ('id' INTEGER NOT NULL, 'item_exchange_disp_order' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "item_exchange_top" VALUES(2000,10);
+INSERT INTO "item_exchange_top" VALUES(3000,70);
+INSERT INTO "item_exchange_top" VALUES(4000,60);
+INSERT INTO "item_exchange_top" VALUES(5000,80);
+INSERT INTO "item_exchange_top" VALUES(5500,90);
+INSERT INTO "item_exchange_top" VALUES(7000,30);
+INSERT INTO "item_exchange_top" VALUES(7001,40);
+INSERT INTO "item_exchange_top" VALUES(7002,50);
+INSERT INTO "item_exchange_top" VALUES(8000,20);
+INSERT INTO "item_exchange_top" VALUES(9000,100);
+COMMIT;

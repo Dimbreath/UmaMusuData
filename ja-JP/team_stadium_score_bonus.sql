@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'team_stadium_score_bonus' ('id' INTEGER NOT NULL, 'priority' INTEGER NOT NULL, 'condition_type' INTEGER NOT NULL, 'condition_value_1' INTEGER NOT NULL, 'condition_value_2' INTEGER NOT NULL, 'score_rate' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "team_stadium_score_bonus" VALUES(1,1,1,1,0,1000);
+INSERT INTO "team_stadium_score_bonus" VALUES(2,2,3,0,0,200000);
+INSERT INTO "team_stadium_score_bonus" VALUES(4,4,4,2,0,200);
+INSERT INTO "team_stadium_score_bonus" VALUES(5,4,4,3,0,300);
+INSERT INTO "team_stadium_score_bonus" VALUES(6,4,4,4,0,400);
+INSERT INTO "team_stadium_score_bonus" VALUES(7,4,4,5,0,500);
+INSERT INTO "team_stadium_score_bonus" VALUES(8,3,5,0,0,0);
+COMMIT;

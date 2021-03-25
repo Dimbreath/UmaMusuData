@@ -1,0 +1,14 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'race_track' ('id' INTEGER NOT NULL, 'initial_lane_type' INTEGER NOT NULL, 'enable_half_gate' INTEGER NOT NULL, 'horse_num_gate_variation' INTEGER NOT NULL, 'turf_vision_type' INTEGER NOT NULL, 'footsmoke_color_type' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "race_track" VALUES(10001,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10002,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10003,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10004,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10005,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10006,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10007,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10008,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10009,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10010,1,1,0,1,1);
+INSERT INTO "race_track" VALUES(10101,2,0,1,2,2);
+COMMIT;

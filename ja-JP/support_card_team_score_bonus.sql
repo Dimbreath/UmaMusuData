@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'support_card_team_score_bonus' ('id' INTEGER NOT NULL, 'level' INTEGER NOT NULL, 'score_rate' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "support_card_team_score_bonus" VALUES(1,20,1);
+INSERT INTO "support_card_team_score_bonus" VALUES(2,25,2);
+INSERT INTO "support_card_team_score_bonus" VALUES(3,30,2);
+INSERT INTO "support_card_team_score_bonus" VALUES(4,35,2);
+INSERT INTO "support_card_team_score_bonus" VALUES(5,40,3);
+INSERT INTO "support_card_team_score_bonus" VALUES(6,45,5);
+INSERT INTO "support_card_team_score_bonus" VALUES(7,50,5);
+COMMIT;

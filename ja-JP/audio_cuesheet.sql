@@ -1,0 +1,15 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'audio_cuesheet' ('id' INTEGER NOT NULL, 'cue_sheet' TEXT NOT NULL, 'attribute' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "audio_cuesheet" VALUES(1,'snd_sfx_common',1);
+INSERT INTO "audio_cuesheet" VALUES(2,'snd_sfx_home_000',1);
+INSERT INTO "audio_cuesheet" VALUES(3,'snd_sfx_common',2);
+INSERT INTO "audio_cuesheet" VALUES(4,'snd_bgm_title',2);
+INSERT INTO "audio_cuesheet" VALUES(5,'snd_voi_title',2);
+INSERT INTO "audio_cuesheet" VALUES(6,'snd_sfx_story_000',108);
+INSERT INTO "audio_cuesheet" VALUES(7,'snd_sfx_training_000',103);
+INSERT INTO "audio_cuesheet" VALUES(8,'snd_sfx_room_000',104);
+INSERT INTO "audio_cuesheet" VALUES(9,'snd_sfx_gacha_000',105);
+INSERT INTO "audio_cuesheet" VALUES(10,'snd_sfx_race_000',106);
+INSERT INTO "audio_cuesheet" VALUES(11,'snd_sfx_preinstall',1);
+INSERT INTO "audio_cuesheet" VALUES(12,'snd_sfx_atmos_common',1);
+COMMIT;

@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE 'story_event_story_data' ('id' INTEGER NOT NULL, 'story_event_id' INTEGER NOT NULL, 'episode_index_id' INTEGER NOT NULL, 'story_condition_type' INTEGER NOT NULL, 'story_type_1' INTEGER NOT NULL, 'story_id_1' INTEGER NOT NULL, 'story_type_2' INTEGER NOT NULL, 'story_id_2' INTEGER NOT NULL, 'story_type_3' INTEGER NOT NULL, 'story_id_3' INTEGER NOT NULL, 'story_type_4' INTEGER NOT NULL, 'story_id_4' INTEGER NOT NULL, 'story_type_5' INTEGER NOT NULL, 'story_id_5' INTEGER NOT NULL, 'need_point' INTEGER NOT NULL, 'add_reward_category_1' INTEGER NOT NULL, 'add_reward_id_1' INTEGER NOT NULL, 'add_reward_num_1' INTEGER NOT NULL, 'start_date' INTEGER NOT NULL, PRIMARY KEY('id'));
+INSERT INTO "story_event_story_data" VALUES(1,1001,1,1,1,90001001,0,0,0,0,0,0,0,0,0,90,43,30,1614654000);
+INSERT INTO "story_event_story_data" VALUES(2,1001,2,0,1,90001002,0,0,0,0,0,0,0,0,10000,90,43,30,1614654000);
+INSERT INTO "story_event_story_data" VALUES(3,1001,3,0,1,90001003,0,0,0,0,0,0,0,0,20000,90,43,30,1614654000);
+INSERT INTO "story_event_story_data" VALUES(4,1001,4,0,1,90001004,0,0,0,0,0,0,0,0,30000,90,43,30,1614654000);
+INSERT INTO "story_event_story_data" VALUES(5,1001,5,0,1,90001005,0,0,0,0,0,0,0,0,40000,90,43,30,1615086000);
+INSERT INTO "story_event_story_data" VALUES(6,1001,6,0,1,90001006,0,0,0,0,0,0,0,0,50000,90,43,30,1615086000);
+INSERT INTO "story_event_story_data" VALUES(7,1001,7,0,1,90001007,0,0,0,0,0,0,0,0,60000,90,43,30,1615086000);
+INSERT INTO "story_event_story_data" VALUES(8,1001,8,0,1,90001008,0,0,0,0,0,0,0,0,70000,90,43,30,1615086000);
+COMMIT;
